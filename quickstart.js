@@ -6,7 +6,7 @@
   var volumeIndicators = document.getElementById('volume-indicators');
 
   log('Requesting Capability Token...');
-  $.getJSON('https://cyan-olm-7579.twil.io/capability-token')
+  $.getJSON('https://mustard-dragonfly-4945.twil.io/capability-token')
   //Paste URL HERE
     .done(function (data) {
       log('Got a token.');
